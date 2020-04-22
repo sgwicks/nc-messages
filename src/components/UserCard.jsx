@@ -1,7 +1,7 @@
 import React from "react";
 
-const UserCard = () => {
-  return <div></div>;
+const UserCard = ({ user }) => {
+  return <h3>{user}</h3>;
 };
 
 export default UserCard;
