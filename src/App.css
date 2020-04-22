@@ -1,8 +1,14 @@
 .App {
   text-align: center;
+  display: grid;
 }
 
 img {
   height: 25%;
   width: 25%;
+}
+
+.users-list {
+  display: grid;
+  justify-content: left;
 }
