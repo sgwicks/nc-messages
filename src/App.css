@@ -8,9 +8,16 @@ img {
   width: 25%;
 }
 
+.chat-history {
+  border: 1px black solid;
+}
 .users-list {
   display: grid;
   justify-content: left;
+  list-style: none;
+}
+
+ul {
   list-style: none;
 }
 
