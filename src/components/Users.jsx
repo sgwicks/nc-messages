@@ -10,11 +10,11 @@ export default class Users extends Component {
     const { users } = this.state;
     return (
       <aside>
-        <ul>
+        <ul className="users-list">
           {users.map((user, i) => {
             return (
               <li key={i}>
-                <UserCard />
+                <UserCard user={user} />
               </li>
             );
           })}
