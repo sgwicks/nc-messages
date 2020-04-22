@@ -11,10 +11,15 @@ export default class Header extends Component {
     const { user, url } = this.state;
 
     return (
-      <section>
-        <img src={url} alt="avatar" />
-        <h2>{user}</h2>
-      </section>
+      <>
+        <header>
+          <h1>NC Messenger</h1>
+        </header>
+        <section>
+          <img src={url} alt="avatar" />
+          <h2>Logged in as: {user}</h2>
+        </section>
+      </>
     );
   }
 }
