@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup-db": "psql -f db/setup.sql"
+    "setup-db": "psql -f db/setup.sql",
+    "migrate": "knex migrate:up",
+    "rollback": "knex migrate:down"
   },
   "repository": {
     "type": "git",

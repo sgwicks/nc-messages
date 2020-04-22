@@ -7,11 +7,10 @@ const dbConfig = {
     username,
     password
   },
-  seeds: { directory: './db/seeds' }
+  seeds: { directory: './db/seeds' },
+  migrations: {
+    directory: './db/migrations'
+  }
 };
 
 module.exports = dbConfig;
-
-// migrations: {
-//   directory: "./db/migrations"
-// }
